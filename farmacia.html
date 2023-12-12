@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Farmácia</title>
+    
+</head>
+
+<body class="tela">
+<div class="bloco" style="text-align: center;">
+    <br>
+    <h1 style="text-align: center;" class="lista">Lista de Remédios</h1>
+    <hr style= "color: rgb(0, 0, 0);border: 1px solid;">
+    <form id="formRemedio" style="text-align: center;">
+        <label class="dados" for="nome">Nome: </label><br>
+        <input class="barras" type="text" id="nome" required><br>
+        <label class="dados" for="fabricante">Fabricante: </label><br>
+        <input class="barras" type="text" id="fabricante" required><br>
+        <label class="dados" for="indicacao">Indicação: </label><br>
+        <input class="barras" type="text" id="indicacao" required><br>
+        <label class="dados" for="utilizacao">Forma de Utilização: </label><br>
+        <input class="barras" type="text" id="utilizacao" required><br><br>
+
+        <button class="button" style="text-align: center;" type="button" id="salvarRegistro" onclick="salvarRemedio()">Salvar</button>
+        <button class="button" type="button" id="btnAtualizar" onclick="atualizarRemedio()" style="display:none;">Atualizar</button>
+    </form>
+
+    <br>
+    <h2 style="text-align: center;" class="registro">Remédios Registrados</h2><br>
+    <ul id="listaRemedios" class="dadoLista" style="text-align: left;"></ul>
+
+    <script src="script.js"></script>
+
+</div>
+</body>
+</html>

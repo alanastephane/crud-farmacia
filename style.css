@@ -1,0 +1,86 @@
+.tela{
+    background-color: #e21c1c;}
+     
+     .bloco{
+     background-color: white;
+     width: 1000px;
+     min-height: 955px;
+     max-height: 100%;
+     margin: auto;}
+     
+     .lista{
+         font-family: 'montserrat',monospace;
+         font-style: normal;
+         font-weight: 50px;
+         font-size: 45px;
+         line-height: 50px;
+         color: #000000;
+         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+      
+     .cadastro{
+         font-family: 'montserrat',monospace;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 85px;
+         line-height: 104px;
+         color: #000000;
+         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+     
+     .dados{
+     font-family: 'montserrat',monospace;
+     font-style: normal;
+     font-weight: 50px;
+     font-size:30px;
+     line-height: 50px;
+     color: #000000;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+     
+     
+     .barras{
+     width: 450px;
+     height: 45px;
+     background: rgb(255, 255, 255);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 50px;
+     font-family: 'montserrat',monospace;
+     font-style: normal;
+     font-weight: 50px;
+     font-size: 20px;
+     line-height: 50px;
+     color: #4b4a4a;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     text-align: center;}
+     
+     
+     .button{
+     font-family: 'montserrat',monospace;
+     font-style: normal;
+     font-weight: 50px;
+     font-size: 25px;
+     line-height: 45px; 
+     color: rgb(255, 255, 255);
+     background-color: #e21c1c;
+     border-radius: 25px;
+     border: 3px solid rgb(255, 255, 255);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+ 
+     
+ 
+     .dadoLista{
+     font-family: 'montserrat',monospace;
+     font-style: normal;
+     font-weight: 50px;
+     font-size: 25px;
+     line-height: 50px;
+     color: #000000;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+ 
+     .registro{
+         font-family: 'montserrat',monospace;
+         font-style: normal;
+         font-weight: 50px;
+         font-size: 35px;
+         line-height: 50px;
+         color: #000000;
+         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+      
